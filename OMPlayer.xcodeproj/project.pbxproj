@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499C07762AF03AAE00BA3A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07752AF03AAE00BA3A86 /* AppDelegate.swift */; };
+		499C077A2AF03AAE00BA3A86 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07792AF03AAE00BA3A86 /* RootViewController.swift */; };
+		499C07802AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 499C077E2AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld */; };
+		499C07822AF03AAF00BA3A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499C07812AF03AAF00BA3A86 /* Assets.xcassets */; };
+		499C07852AF03AAF00BA3A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499C07832AF03AAF00BA3A86 /* LaunchScreen.storyboard */; };
+		499C078D2AF0443D00BA3A86 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C078C2AF0443D00BA3A86 /* PlayerViewController.swift */; };
+		499C078F2AF044AB00BA3A86 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C078E2AF044AB00BA3A86 /* PlayerView.swift */; };
+		499C07912AF0456F00BA3A86 /* Hooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07902AF0456F00BA3A86 /* Hooks.swift */; };
+		499C07932AF0459300BA3A86 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07922AF0459300BA3A86 /* CustomButton.swift */; };
+		499C079C2AF4052600BA3A86 /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C07992AF4052600BA3A86 /* audio1.mp3 */; };
+		499C079D2AF4052600BA3A86 /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C079A2AF4052600BA3A86 /* audio2.mp3 */; };
+		499C079E2AF4052600BA3A86 /* audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C079B2AF4052600BA3A86 /* audio3.mp3 */; };
+		499C07A02AF4058900BA3A86 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C079F2AF4058900BA3A86 /* LibraryViewController.swift */; };
+		499C07A82AF43E6100BA3A86 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07A72AF43E6100BA3A86 /* LibraryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		499C07722AF03AAE00BA3A86 /* OMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499C07752AF03AAE00BA3A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499C07792AF03AAE00BA3A86 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		499C077F2AF03AAE00BA3A86 /* OMPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OMPlayer.xcdatamodel; sourceTree = "<group>"; };
+		499C07812AF03AAF00BA3A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499C07842AF03AAF00BA3A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499C07862AF03AAF00BA3A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499C078C2AF0443D00BA3A86 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		499C078E2AF044AB00BA3A86 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		499C07902AF0456F00BA3A86 /* Hooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hooks.swift; sourceTree = "<group>"; };
+		499C07922AF0459300BA3A86 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		499C07992AF4052600BA3A86 /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
+		499C079A2AF4052600BA3A86 /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
+		499C079B2AF4052600BA3A86 /* audio3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio3.mp3; sourceTree = "<group>"; };
+		499C079F2AF4058900BA3A86 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		499C07A72AF43E6100BA3A86 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499C076F2AF03AAE00BA3A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499C07692AF03AAE00BA3A86 = {
+			isa = PBXGroup;
+			children = (
+				499C07742AF03AAE00BA3A86 /* OMPlayer */,
+				499C07732AF03AAE00BA3A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499C07732AF03AAE00BA3A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499C07722AF03AAE00BA3A86 /* OMPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499C07742AF03AAE00BA3A86 /* OMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				499C07982AF4044E00BA3A86 /* Audio */,
+				499C07942AF046AC00BA3A86 /* Hooks */,
+				499C07972AF046FB00BA3A86 /* Model */,
+				499C07952AF046C600BA3A86 /* Views */,
+				499C07962AF046D000BA3A86 /* Controllers */,
+				499C07752AF03AAE00BA3A86 /* AppDelegate.swift */,
+				499C07792AF03AAE00BA3A86 /* RootViewController.swift */,
+				499C07812AF03AAF00BA3A86 /* Assets.xcassets */,
+				499C07832AF03AAF00BA3A86 /* LaunchScreen.storyboard */,
+				499C07862AF03AAF00BA3A86 /* Info.plist */,
+				499C077E2AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld */,
+			);
+			path = OMPlayer;
+			sourceTree = "<group>";
+		};
+		499C07942AF046AC00BA3A86 /* Hooks */ = {
+			isa = PBXGroup;
+			children = (
+				499C07922AF0459300BA3A86 /* CustomButton.swift */,
+				499C07902AF0456F00BA3A86 /* Hooks.swift */,
+			);
+			path = Hooks;
+			sourceTree = "<group>";
+		};
+		499C07952AF046C600BA3A86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				499C078E2AF044AB00BA3A86 /* PlayerView.swift */,
+				499C07A72AF43E6100BA3A86 /* LibraryTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		499C07962AF046D000BA3A86 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				499C078C2AF0443D00BA3A86 /* PlayerViewController.swift */,
+				499C079F2AF4058900BA3A86 /* LibraryViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		499C07972AF046FB00BA3A86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		499C07982AF4044E00BA3A86 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				499C07992AF4052600BA3A86 /* audio1.mp3 */,
+				499C079A2AF4052600BA3A86 /* audio2.mp3 */,
+				499C079B2AF4052600BA3A86 /* audio3.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499C07712AF03AAE00BA3A86 /* OMPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499C07892AF03AAF00BA3A86 /* Build configuration list for PBXNativeTarget "OMPlayer" */;
+			buildPhases = (
+				499C076E2AF03AAE00BA3A86 /* Sources */,
+				499C076F2AF03AAE00BA3A86 /* Frameworks */,
+				499C07702AF03AAE00BA3A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMPlayer;
+			productName = OMPlayer;
+			productReference = 499C07722AF03AAE00BA3A86 /* OMPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499C076A2AF03AAE00BA3A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					499C07712AF03AAE00BA3A86 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 499C076D2AF03AAE00BA3A86 /* Build configuration list for PBXProject "OMPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499C07692AF03AAE00BA3A86;
+			productRefGroup = 499C07732AF03AAE00BA3A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499C07712AF03AAE00BA3A86 /* OMPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499C07702AF03AAE00BA3A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499C079D2AF4052600BA3A86 /* audio2.mp3 in Resources */,
+				499C07852AF03AAF00BA3A86 /* LaunchScreen.storyboard in Resources */,
+				499C079E2AF4052600BA3A86 /* audio3.mp3 in Resources */,
+				499C07822AF03AAF00BA3A86 /* Assets.xcassets in Resources */,
+				499C079C2AF4052600BA3A86 /* audio1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499C076E2AF03AAE00BA3A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499C077A2AF03AAE00BA3A86 /* RootViewController.swift in Sources */,
+				499C078D2AF0443D00BA3A86 /* PlayerViewController.swift in Sources */,
+				499C07A02AF4058900BA3A86 /* LibraryViewController.swift in Sources */,
+				499C07762AF03AAE00BA3A86 /* AppDelegate.swift in Sources */,
+				499C078F2AF044AB00BA3A86 /* PlayerView.swift in Sources */,
+				499C07A82AF43E6100BA3A86 /* LibraryTableViewCell.swift in Sources */,
+				499C07932AF0459300BA3A86 /* CustomButton.swift in Sources */,
+				499C07912AF0456F00BA3A86 /* Hooks.swift in Sources */,
+				499C07802AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		499C07832AF03AAF00BA3A86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499C07842AF03AAF00BA3A86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499C07872AF03AAF00BA3A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499C07882AF03AAF00BA3A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499C078A2AF03AAF00BA3A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDTF3XS674;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OMPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499C078B2AF03AAF00BA3A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDTF3XS674;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OMPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499C076D2AF03AAE00BA3A86 /* Build configuration list for PBXProject "OMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C07872AF03AAF00BA3A86 /* Debug */,
+				499C07882AF03AAF00BA3A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499C07892AF03AAF00BA3A86 /* Build configuration list for PBXNativeTarget "OMPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499C078A2AF03AAF00BA3A86 /* Debug */,
+				499C078B2AF03AAF00BA3A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		499C077E2AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				499C077F2AF03AAE00BA3A86 /* OMPlayer.xcdatamodel */,
+			);
+			currentVersion = 499C077F2AF03AAE00BA3A86 /* OMPlayer.xcdatamodel */;
+			path = OMPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 499C076A2AF03AAE00BA3A86 /* Project object */;
+}
