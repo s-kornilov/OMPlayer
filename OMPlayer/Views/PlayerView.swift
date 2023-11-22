@@ -24,7 +24,6 @@ class PlayerView: UIView {
     let trackTitle: UILabel = {
         let trackTitle = UILabel()
         trackTitle.toAutoLayout()
-        trackTitle.text = "Linkin Park - Numb"
         trackTitle.font = .systemFont(ofSize: 19, weight: .regular)
         return trackTitle
     }()

@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 
     let firstViewController = LibraryViewController()
-    let secondViewController = PlayerViewController()
+    let secondViewController =  LibraryViewController()
 
     var window: UIWindow?
 
@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func createPlayerViewController() -> UINavigationController {
-        let playerViewController = PlayerViewController()
+        let playerViewController = LibraryViewController()
         playerViewController.title = "Play"
         if #available(iOS 13.0, *) {
             playerViewController.tabBarItem = UITabBarItem(title: "Play", image: UIImage(systemName: "play.circle.fill"), tag: 0)

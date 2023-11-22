@@ -35,16 +35,16 @@ class LibraryViewController: UIViewController {
     
     func configureSongs() {
         songs.append(Song(albumCover: "Image URL 1",
-                          artistName: "Artist name 1",
-                          trackName: "Track name 1",
+                          artistName: "KAROL G",
+                          trackName: "bebesita",
                           albumName: "Album name 1"))
         songs.append(Song(albumCover: "Image URL 2",
-                          artistName: "Artist name 2",
-                          trackName: "Track name 2",
+                          artistName: "Madonna",
+                          trackName: "frozen",
                           albumName: "Album name 2"))
         songs.append(Song(albumCover: "Image URL 3",
-                          artistName: "Artist name 3",
-                          trackName: "Track name 3",
+                          artistName: "Shakira",
+                          trackName: "copa_vacia",
                           albumName: "Album name 3"))
     }
     
@@ -82,26 +82,13 @@ extension LibraryViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
-        
-        //present player
-        //let position = indexPath.row
-        //songs
+        var playerVC: PlayerViewController?
+        playerVC = PlayerViewController(songs: songs, initialIndex: indexPath.row)
+        self.navigationController?.present(playerVC!, animated: true)
         return
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100.0
     }
-    
-}
-
-struct Song {
-    let albumCover: String
-    let artistName: String
-    let trackName: String
-    let albumName: String
-}
-
-class TableViewCell: UITableViewCell {
-    
 }

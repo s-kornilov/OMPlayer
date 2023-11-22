@@ -16,11 +16,12 @@
 		499C078F2AF044AB00BA3A86 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C078E2AF044AB00BA3A86 /* PlayerView.swift */; };
 		499C07912AF0456F00BA3A86 /* Hooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07902AF0456F00BA3A86 /* Hooks.swift */; };
 		499C07932AF0459300BA3A86 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07922AF0459300BA3A86 /* CustomButton.swift */; };
-		499C079C2AF4052600BA3A86 /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C07992AF4052600BA3A86 /* audio1.mp3 */; };
-		499C079D2AF4052600BA3A86 /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C079A2AF4052600BA3A86 /* audio2.mp3 */; };
-		499C079E2AF4052600BA3A86 /* audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499C079B2AF4052600BA3A86 /* audio3.mp3 */; };
 		499C07A02AF4058900BA3A86 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C079F2AF4058900BA3A86 /* LibraryViewController.swift */; };
 		499C07A82AF43E6100BA3A86 /* LibraryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C07A72AF43E6100BA3A86 /* LibraryTableViewCell.swift */; };
+		499FAAA52B0E9A0400087695 /* frozen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499FAAA42B0E9A0400087695 /* frozen.mp3 */; };
+		499FAAA72B0E9A4200087695 /* copa_vacia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499FAAA62B0E9A4200087695 /* copa_vacia.mp3 */; };
+		499FAAA92B0E9B0000087695 /* bebesita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 499FAAA82B0E9B0000087695 /* bebesita.mp3 */; };
+		499FAAAB2B0EAD9900087695 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499FAAAA2B0EAD9900087695 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +36,12 @@
 		499C078E2AF044AB00BA3A86 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		499C07902AF0456F00BA3A86 /* Hooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hooks.swift; sourceTree = "<group>"; };
 		499C07922AF0459300BA3A86 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		499C07992AF4052600BA3A86 /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
-		499C079A2AF4052600BA3A86 /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
-		499C079B2AF4052600BA3A86 /* audio3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio3.mp3; sourceTree = "<group>"; };
 		499C079F2AF4058900BA3A86 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		499C07A72AF43E6100BA3A86 /* LibraryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryTableViewCell.swift; sourceTree = "<group>"; };
+		499FAAA42B0E9A0400087695 /* frozen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frozen.mp3; sourceTree = "<group>"; };
+		499FAAA62B0E9A4200087695 /* copa_vacia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copa_vacia.mp3; sourceTree = "<group>"; };
+		499FAAA82B0E9B0000087695 /* bebesita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bebesita.mp3; sourceTree = "<group>"; };
+		499FAAAA2B0EAD9900087695 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		499C07972AF046FB00BA3A86 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				499FAAAA2B0EAD9900087695 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,9 +127,9 @@
 		499C07982AF4044E00BA3A86 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				499C07992AF4052600BA3A86 /* audio1.mp3 */,
-				499C079A2AF4052600BA3A86 /* audio2.mp3 */,
-				499C079B2AF4052600BA3A86 /* audio3.mp3 */,
+				499FAAA82B0E9B0000087695 /* bebesita.mp3 */,
+				499FAAA42B0E9A0400087695 /* frozen.mp3 */,
+				499FAAA62B0E9A4200087695 /* copa_vacia.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -189,11 +192,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499C079D2AF4052600BA3A86 /* audio2.mp3 in Resources */,
+				499FAAA72B0E9A4200087695 /* copa_vacia.mp3 in Resources */,
 				499C07852AF03AAF00BA3A86 /* LaunchScreen.storyboard in Resources */,
-				499C079E2AF4052600BA3A86 /* audio3.mp3 in Resources */,
+				499FAAA52B0E9A0400087695 /* frozen.mp3 in Resources */,
 				499C07822AF03AAF00BA3A86 /* Assets.xcassets in Resources */,
-				499C079C2AF4052600BA3A86 /* audio1.mp3 in Resources */,
+				499FAAA92B0E9B0000087695 /* bebesita.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +215,7 @@
 				499C07A82AF43E6100BA3A86 /* LibraryTableViewCell.swift in Sources */,
 				499C07932AF0459300BA3A86 /* CustomButton.swift in Sources */,
 				499C07912AF0456F00BA3A86 /* Hooks.swift in Sources */,
+				499FAAAB2B0EAD9900087695 /* Model.swift in Sources */,
 				499C07802AF03AAE00BA3A86 /* OMPlayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
